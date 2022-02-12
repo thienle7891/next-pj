@@ -1,0 +1,21 @@
+
+
+
+.slick-prev {
+    left: 25px !important;
+    background: rgba(45, 179, 75, 0.7) !important;
+  z-index: 100000;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 4px;
+}
+
+.slick-next {
+  right: 25px !important;
+  background: rgba(45, 179, 75, 0.7) !important;
+  z-index: 100000;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 4px;
+
+}

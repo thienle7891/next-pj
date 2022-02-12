@@ -1,0 +1,241 @@
+.inforMarketAll {
+    width: 100%;
+    .inforMarket {
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        padding-top: 8px ;
+        position: relative;
+        
+        .inforMarketHeader {
+            span {
+                padding: 8px 16px;
+                margin-right: 2px;
+                background-color: #d9d9d9;
+                font-weight: 600;
+                color: rgb(93, 107, 142);
+                border-top: 2px solid #d9d9d9;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+            span.active {
+                color: rgb(45, 179, 75);
+                background-color: #fff;
+                border-top: 2px solid rgb(45, 179, 75);
+                border-right: 1px solid #d9d9d9;
+                border-left: 1px solid #d9d9d9;
+            
+            }
+        }
+        .newsListActive {
+            margin: 12px;
+            border-bottom: 1px solid #d9d9d9;
+            span{
+                margin: 0px;
+                display: flex;
+                align-items: center;
+                h2 {
+                    margin: 4px;
+                    font-size: 12px;
+                
+                }
+            }
+            a{
+                margin: 0px;
+                display: flex;
+                align-items: center;
+                color: #000;
+                text-decoration: none;
+                font-size: 10px;
+                &:hover{
+                    color: rgb(45, 179, 75);
+                    cursor: pointer;
+                }
+                h2 {
+                    margin: 4px;
+                    font-size: 12px;
+                
+                }
+            }
+        }
+        .btnShowAll {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 14px;
+            transition: all 0.2s ease-in-out;
+            h1{ 
+                margin-left: 12px;
+                font-size: 14px
+            }
+            .iconRight{
+
+            }
+            &:hover {
+                color: rgb(45, 179, 75);
+                cursor: pointer;
+                transition: all 0.2s ease-in-out;
+                transform: translateX(-10px);
+            }
+        }
+    }
+}
+
+// .newsListActive h3{
+//     font-size: 12px;
+//     margin: 4px;
+// }
+
+@media (max-width: 1200px)  {
+    .inforMarketAll {
+        width: 100%;
+        .inforMarket {
+            
+            
+            .inforMarketHeader {
+                span {
+                }
+                span.active {
+                
+                }
+            }
+            .newsListActive {
+                p{
+                    margin: 6px;
+                    height: 36px;
+                    display: block;
+                    display: -webkit-box;
+                    --webkit-box-orient: vertical;
+                    --webkit-line-clamp: 2;
+                    overflow: hidden;
+                }
+                
+            }
+            
+        }
+    }
+}
+@media (max-width: 990px) {
+    .inforMarketAll {
+        width: 100%;
+        .inforMarket {
+            
+            
+            .inforMarketHeader {
+                span {
+                }
+                span.active {
+                
+                }
+            }
+            .newsListActive {
+                p{
+                    margin: 6px;
+                    height: 36px;
+                    display: block;
+                    display: -webkit-box;
+                    --webkit-box-orient: vertical;
+                    --webkit-line-clamp: 2;
+                    overflow: hidden;
+                }
+                
+            }
+            
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .inforMarketAll {
+        width: 100%;
+        .inforMarket {
+            padding-top: 0px ;
+            .inforMarketHeader {
+                span {
+                    padding: 6px 8px;
+                    margin-right: 2px;
+                    font-size: 8px;
+                }
+            }
+            .newsListActive {
+                margin: 0px;
+                h3{
+                    font-size: 8px;
+                }
+                h2 {
+                    margin: 4px;
+                    font-size: 10px;
+                
+                }
+                p{
+                    margin: 6px;
+                    height: 30px;
+                    display: block;
+                    display: -webkit-box;
+                    --webkit-box-orient: vertical;
+                    --webkit-line-clamp: 2;
+                    overflow: hidden;
+                    font-size: 10px
+                }
+            }
+            .btnShowAll {
+                display: flex;
+                flex-direction: row;
+                align-self: flex-end;
+
+                align-items: center;
+                margin: 8px;
+                font-size: 10px;
+                h3 {
+                    margin: 0
+                }
+            }
+        }
+    }
+}
+@media (max-width: 480px) {
+    .inforMarketAll {
+        width: 100%;
+        .inforMarket {
+            padding-top: 0px ;
+            .inforMarketHeader {
+                span {
+                    margin-right: 2px;
+                    font-size: 8px;
+                    padding: 4px 6px;
+            
+                }
+            }
+            .newsListActive {
+                margin: 0px;
+                a{
+                    font-size: 8px;
+                    h2 {
+                        margin: 4px;
+                        font-size: 10px;
+                    
+                    }
+                }
+                p{
+                    margin: 6px;
+                    height: 30px;
+                    display: block;
+                    display: -webkit-box;
+                    --webkit-box-orient: vertical;
+                    --webkit-line-clamp: 2;
+                    overflow: hidden;
+                    font-size: 11px
+                }
+            }
+            .btnShowAll {
+                display: flex;
+                flex-direction: row;
+                align-self: flex-end;
+                align-items: center;
+                margin: 8px;
+                font-size: 8px;
+            }
+        }
+    }  
+    
+}

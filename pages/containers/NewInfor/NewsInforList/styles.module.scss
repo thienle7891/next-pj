@@ -1,0 +1,334 @@
+
+
+.newsContentOne {
+    width: 100%;
+    height: 100%;
+    .inforContent {
+        background-color: #fff;
+        padding: 6px;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+        background-color: #fff;
+        .inforContentBgOne {
+            background: url(../../../assets/imageNews/img1.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            padding-top: 50%;
+            overflow: hidden;
+            background-position-y: 50% ;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.05);
+                cursor: pointer;
+            }
+        
+        }
+        
+        .inforTimes {
+            display: flex;
+            font-size: 12px;
+            align-items: center;
+            h3 {
+                margin: 4px;
+            }
+        }
+        .inforTitle {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+             h2 {
+                color: var(--bs-gray-900);
+                margin: 4px 6px 6px ;
+                font-size: 14px;
+                &:hover {
+                    color: rgb(45, 179, 75);
+                }
+            }
+        }
+        h4{
+            margin: 0 6px 6px;
+            height: 18px;
+            display: block;
+            /* display: -webkit-box; */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            z-index: 10;
+            font-weight: 300;
+        }
+    }
+}
+.newsContentTwo {
+    width: 100%;
+    height: 100%;
+    .inforContent {
+        background-color: #fff;
+        padding: 6px;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+        background-color: #fff;
+        .inforContentBgTwo {
+            background: url(../../../assets/imageNews/img2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            padding-top: 50%;
+            overflow: hidden;
+            background-position-y: 50% ;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.05);
+                cursor: pointer; 
+            }
+        
+        }
+        
+        .inforTimes {
+            color: var(--bs-gray-600);
+            // margin: 6px 0 0 ;
+            display: flex;
+            font-size: 12px;
+            align-items: center;
+            h3 {
+                margin: 4px;
+            }
+        }
+        .inforTitle {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+             h2 {
+                color: var(--bs-gray-900);
+                margin: 4px 6px 6px ;
+                font-size: 14px;
+                &:hover {
+                    color: rgb(45, 179, 75);
+                }
+            }
+        }
+        h4{
+            margin: 0 6px 6px;
+            height: 18px;
+            display: block;
+            /* display: -webkit-box; */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            z-index: 10;
+            font-weight: 300;
+        }
+    }
+}
+.newsContentThree {
+    width: 100%;
+    height: 100%;
+    .inforContent {
+        background-color: #fff;
+        padding: 6px;
+        padding: 0;
+        overflow: hidden;
+        height: 100%;
+        background-color: #fff;
+        
+        
+        .inforContentBgThree {
+            background: url(../../../assets/imageNews/img3.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            padding-top: 50%;
+            overflow: hidden;
+            background-position-y: 50% ;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+               transform: scale(1.05);
+               cursor: pointer; 
+               
+           }
+        }
+        .inforTimes {
+            color: var(--bs-gray-600);
+            // margin: 6px 0 0 ;
+            display: flex;
+            font-size: 12px;
+            align-items: center;
+            h3 {
+                margin: 4px;
+            }
+        }
+        .inforTitle {
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+             h2 {
+                color: var(--bs-gray-900);
+                margin: 4px 6px 6px ;
+                font-size: 14px;
+                &:hover {
+                    color: rgb(45, 179, 75);
+                }
+            }
+        }
+        h4{
+            margin: 0 6px 6px;
+            height: 18px;
+            display: block;
+            /* display: -webkit-box; */
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            z-index: 10;
+            font-weight: 300;
+        }
+    }
+}
+@media (min-width: 1201px)    {
+    
+}
+
+@media (min-width: 991px)  and (max-width: 1200px)  {
+    
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .newsContentOne {
+        .inforContent {
+            .inforTimes {
+                font-size: 10px;
+            }
+            .inforTitle {
+                h2 {
+                    margin: 0 6px ;
+                    font-size: 12px;
+                }
+            }
+            h4{
+                margin: 6px;
+                height: 18px;
+                font-size: 12px;
+                font-weight: 300
+            }
+        }
+    }
+    .newsContentTwo {
+        .inforContent {
+            .inforTimes {
+                font-size: 10px;
+            }
+            .inforTitle {
+                h2 {
+                    margin: 0 6px ;
+                    font-size: 12px;
+                }
+            }
+            h4{
+                margin: 6px;
+                height: 18px;
+                font-size: 12px;
+                font-weight: 300
+            }
+        }
+    }
+    .newsContentThree {
+        .inforContent {
+            
+            .inforTimes {
+                font-size: 10px;
+            }
+            .inforTitle {
+                h2 {
+                    margin: 0 6px ;
+                    font-size: 12px;
+                }
+            }
+            h4{
+                margin: 6px;
+                height: 18px;
+                font-size: 12px;
+                font-weight: 300
+            }
+        }
+    }
+
+
+    
+}
+@media (max-width: 480px) {
+    .newsContentOne {
+        .inforContent {
+            .inforContentBgOne {
+            }
+            .inforTimes {
+                font-size: 10px;
+                h3 {
+                }
+            }
+            .inforTitle {
+                h2 {
+                    margin: 0 6px ;
+                    font-size: 10px;
+                }
+            }
+            h4{
+                margin: 6px;
+                height: 18px;
+                font-size: 12px;
+                font-weight: 300
+            }
+        }
+    }
+    .newsContentTwo {
+        .inforContent {
+            .inforContentBgOne {
+            }
+            .inforTimes {
+                font-size: 10px;
+                h3 {
+                }
+            }
+            .inforTitle {
+                h2 {
+                    margin: 0 6px ;
+                    font-size: 10px;
+                }
+            }
+            h4{
+                margin: 6px;
+                height: 18px;
+                font-size: 12px;
+                font-weight: 300
+            }
+        }
+    }
+    .newsContentThree {
+        .inforContent {
+            .inforContentBgOne {
+            }
+            .inforTimes {
+                font-size: 10px;
+                h3 {
+                }
+            }
+            .inforTitle {
+                h2 {
+                    margin: 0 6px ;
+                    font-size: 10px;
+                }
+            }
+            h4{
+                margin: 6px;
+                height: 18px;
+                font-size: 12px;
+                font-weight: 300
+            }
+        }
+    }
+
+    
+    
+}

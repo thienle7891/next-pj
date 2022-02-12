@@ -1,0 +1,19 @@
+
+
+.btnUpToTop {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: #fff;
+    background-color: rgba(53, 71, 114, 0.7);
+    padding: 6px;
+    border-radius: 3px;
+    z-index: 10000;
+    &:hover {
+        background-color: rgba(53, 71, 114, 1)
+    }
+}
+
+@media (max-width: 480px) {
+    
+}
